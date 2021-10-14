@@ -1,0 +1,23 @@
+﻿<Window x:Class="binary_multiplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:binary_multiplication"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Multiply!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="first" HorizontalAlignment="Left" Height="23" Margin="237,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="second" HorizontalAlignment="Left" Height="23" Margin="239,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="First number:" HorizontalAlignment="Left" Margin="131,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="Second number:" HorizontalAlignment="Left" Margin="131,53,0,0" VerticalAlignment="Top"/>
+        <Label Content="Binary first nubmer:" HorizontalAlignment="Left" Margin="29,132,0,0" VerticalAlignment="Top"/>
+        <Label Content="Binary second number:" HorizontalAlignment="Left" Margin="29,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="bfirst" Content="Label" HorizontalAlignment="Left" Margin="189,132,0,0" VerticalAlignment="Top" Width="155"/>
+        <Label x:Name="bsecond" Content="Label" HorizontalAlignment="Left" Margin="189,163,0,0" VerticalAlignment="Top" Width="155"/>
+        <Label Content="Answer:" HorizontalAlignment="Left" Margin="29,194,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="answer" Content="Label" HorizontalAlignment="Left" Margin="189,194,0,0" VerticalAlignment="Top" Width="155"/>
+
+    </Grid>
+</Window>

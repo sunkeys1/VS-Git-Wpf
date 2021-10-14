@@ -112,7 +112,7 @@ namespace binary_multiplication
             }
             return n;
         }
-        int[] addBin(int[] n1, int[] n2)
+        int[] addBin(int[] n1, int[] n2) // двоичная сумма
         {
             int[] n3 = new int[8];
 
